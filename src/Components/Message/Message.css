@@ -1,0 +1,11 @@
+.message {
+    background: #f5f5f5;
+    border-bottom: 3px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.my-message {
+    background: #ccc;
+    border-bottom: 3px solid #aaa;
+}
