@@ -15,12 +15,12 @@ ReactDOM.render(
         <BrowserRouter>
             <div>
                 <ul id="menu">
-                    <li><NavLink exact to="/">Home</NavLink></li>
-                    <li><NavLink to="/chat">Chat</NavLink></li>
+                    {/* <li><NavLink exact to="/">Home</NavLink></li> */}
+                    <li><NavLink to="/">Chat</NavLink></li>
                 </ul>
 
-                <Route exact path="/" component={Home} />
-                <Route path="/chat" component={Chat} />
+                {/* <Route exact path="/" component={Home} /> */}
+                <Route exact path="/" component={Chat} />
             </div>
         </BrowserRouter>
     </Provider>
