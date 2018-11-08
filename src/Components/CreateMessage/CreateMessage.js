@@ -12,13 +12,13 @@ class Message extends Component {
 
   render() {
     return (
-      <form id="create-message" onSubmit={this.onSubmit}>
-        <input id="create-message-content"
+      <form className="create-message" onSubmit={this.onSubmit}>
+        <input className="create-message-content"
               type="text"
               placeholder="Please enter message"
               value={this.state.content}
               onChange={this.onChangeContent} />
-        <input id="create-message-submit" type="submit" value="SEND" />
+        <input className="create-message-submit" type="submit" value="SEND" />
       </form>
     );
   }

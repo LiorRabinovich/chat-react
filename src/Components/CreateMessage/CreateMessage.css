@@ -1,40 +1,40 @@
-#create-message {
-    display: flex;
-    padding-top: 10px;
-    border-top: 1px solid #ccc;
-  }
-  
-  #create-message-content,
-  #create-message-submit {
-    height: 50px;
-    line-height: 50px;
-  }
-  
-  #create-message-content {
-    width: 85%;
-    padding: 0 15px;
-    border: 1px solid #ccc;
-    border-radius: 15px 0 0 15px;
-    font-size: 16px;
-  }
-  
-  #create-message-content:hover,
-  #create-message-content:focus {
-    border: 1px solid #aaa;
-  }
-  
-  #create-message-submit {
-    border: none;
-    font-weight: bold;
-    background: #333;
-    color: #fff;
-    width: 15%;
-    border-radius: 0 15px 15px 0;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  
-  #create-message-submit:hover,
-  #create-message-submit:focus {
-    opacity: 0.9;
-  }
+.create-message {
+  display: flex;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.create-message-content,
+.create-message-submit {
+  height: 50px;
+  line-height: 50px;
+}
+
+.create-message-content {
+  width: 85%;
+  padding: 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 15px 0 0 15px;
+  font-size: 16px;
+}
+
+.create-message-content:hover,
+.create-message-content:focus {
+  border: 1px solid #aaa;
+}
+
+.create-message-submit {
+  border: none;
+  font-weight: bold;
+  background: #333;
+  color: #fff;
+  width: 15%;
+  border-radius: 0 15px 15px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.create-message-submit:hover,
+.create-message-submit:focus {
+  opacity: 0.9;
+}

@@ -14,7 +14,7 @@ ReactDOM.render(
     <Provider store={Store}>
         <BrowserRouter>
             <div>
-                <ul id="menu">
+                <ul className="menu">
                     {/* <li><NavLink exact to="/">Home</NavLink></li> */}
                     <li><NavLink to="/">Chat</NavLink></li>
                 </ul>

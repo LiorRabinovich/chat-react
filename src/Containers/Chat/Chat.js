@@ -25,8 +25,8 @@ class Chat extends Component {
   }
   render() {
     return (
-      <div id="chat">
-          <div id="messages">
+      <div className="chat">
+          <div className="messages">
             {this.props.messagesArray.map((messageObject, messageIndex) =>
               <Message
                 key={messageIndex}

@@ -25,7 +25,7 @@ body {
   height: 100%;
 }
 
-#menu {
+.menu {
   height: 50px;
   margin: 0;
   padding: 0;
@@ -33,14 +33,14 @@ body {
   margin-bottom: 20px;
 }
 
-#menu li {
+.menu li {
   display: inline-block;
   margin-right: 1px;
   height: 50px;
   line-height: 50px;
 }
 
-#menu a {
+.menu a {
   font-size: 20px;
   text-decoration: none;
   padding: 0 20px;
@@ -48,20 +48,20 @@ body {
   color: #333;
 }
 
-#menu a.active {
+.menu a.active {
   background: #333;
   color: #fff;
 }
 
-#home {
+.home {
   text-align: center;
 }
 
-#chat {
+.chat {
   height: calc(100% - 70px); /* 70 = Menu + Margin Height*/
 }
 
-#messages {
+.messages {
   height: calc(100% - 70px); /* 70 = Create Message + Margin Height*/
   overflow-y: auto;
 }
